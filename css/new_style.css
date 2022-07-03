@@ -1,0 +1,240 @@
+/* Header Section */
+.tonni_tm_hero .background .image {
+    background-position: top;
+}
+
+.text-slider-items {
+    display: none;
+}
+
+.view_resume {
+    padding: 10px 20px;
+    background: #ab5429;
+    color: #fff !important;
+    font-weight: normal !important;
+}
+
+.view_resume:hover {
+    background: #000;
+}
+
+.youtube_play_button {
+    position: absolute;
+    left: 65px;
+    top: 50%;
+    z-index: 3;
+    transform: translateY(-50%);
+}
+.video-play-button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 44px;
+    /* background: #fa183d; */
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #AB5429;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-play-button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #AB5429;
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
+.video-play-button:hover:after {
+    background-color: darken(#AB5429, 10%);
+}
+
+.video-play-button img {
+    position: relative;
+    z-index: 3;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 22px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom:12px solid transparent;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+
+/* About section */
+.tonni_tm_about .left_inner{
+    margin-bottom: 80px;
+}
+
+.samples_port{
+    display: none;
+}
+
+.image_portfolio {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+.list_inner:hover .image_portfolio img{
+    transform: scale(1.1);
+    transition: ease-in .3s;
+}
+.lightboxed--caption{
+    display: none;
+}
+
+
+
+/* Service Section */
+.special-tiles-wrap {
+    /* background: #FFF; */
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 30px 30px 20px;
+    text-align: center;
+    /* box-shadow: 5px 5px 45px -27px rgb(0 0 0 / 50%);
+    -webkit-box-shadow: 5px 5px 55px -27px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 5px 5px 45px -27px rgba(0, 0, 0, 0.5); */
+}
+.special-icons img{
+    width: 100%;
+
+}
+.special-icons {
+    font-size: 45px;
+    /* float: left; */
+    color: #002A3A;
+    margin-right: 10px;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.special-heading {
+    font-size: 14px;
+    line-height: 21px;
+    color: #ab5429;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.special-text {
+    color: #86756C;
+}
+
+.tonni_tm_service .service_list {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: none;
+}
+
+.service_item-box {
+    width: 32%;
+    margin-right: 2%;
+}
+.service_item-box:hover{
+    background: #ab5429;
+    color: #fff !important;
+}
+.service_item-box:hover .special-text , .service_item-box:hover .special-heading {
+    color: #fff;
+}
+.service_item-box:hover .special-icons img {
+   filter:  invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg) brightness(119%) contrast(115%);
+}
+.service_list .service_item-box:nth-child(3) {
+    margin-right: 0;
+}
+
+.service_list:first-child {
+    margin-top: 50px;
+}
+
+
+.first-service-container {
+    margin-top: 50px !important;
+}
+
+
+
+
+
+
+.tonni_tm_contact {
+    padding-top: 110px;
+    margin-top: 0;
+}
+
+.tonni_tm_about .about_inner {
+    align-items: center;
+}
+
+.dodo_progress ul li {
+    margin: 0px 0px 20px 0px;
+
+}
+
+@media (max-width: 1600px) {
+    .dodo_progress .progress_inner .background {
+        height: 4px;
+    }
+}
+
+
+
+/* footer */
+.shape .shape-svg1{
+	height: 850px;
+	width: 850px;
+}
