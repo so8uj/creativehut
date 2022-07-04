@@ -178,10 +178,13 @@
     margin-bottom: 15px;
     border-bottom: none;
 }
-
+.service_title{
+    text-align: center;
+}
 .service_item-box {
     width: 32%;
     margin-right: 2%;
+    border-radius:10px;
 }
 .service_item-box:hover{
     background: #ab5429;
@@ -237,4 +240,8 @@
 .shape .shape-svg1{
 	height: 850px;
 	width: 850px;
+}
+.tonni_tm_contact .short .social ul li .svg{
+    width: 25px;
+    height: 25px;
 }
