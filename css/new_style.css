@@ -214,10 +214,10 @@
 
 
 
-.tonni_tm_contact {
+/* .tonni_tm_contact {
     padding-top: 110px;
     margin-top: 0;
-}
+} */
 
 .tonni_tm_about .about_inner {
     align-items: center;
@@ -231,6 +231,7 @@
 }
 .tonni_tm_hero .welcome{
     display: unset;
+    font-size: 24px;
 }
 .tonni_tm_hero .name{
     margin-bottom: 30px;

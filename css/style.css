@@ -652,8 +652,8 @@ h6 { font-size: 16px; }
 }
 .tonni_tm_hero .shape4{
 	position: absolute;
-	top: 36%;
-	left: 49%;
+	top: 32%;
+	left: 48%;
 }
 .tonni_tm_hero .shape4 .svg{
 	width: 45px;
@@ -818,6 +818,7 @@ h6 { font-size: 16px; }
 	width: 100%;
 	float: left;
 	margin-bottom: 50px;
+	text-align: justify;
 }
 .dodo_progress{
 	width: 100%;
@@ -888,7 +889,7 @@ h6 { font-size: 16px; }
 	display: inline-block;
 	font-weight: 600;
 	color: #000;
-	padding-left: 10px;
+	font-size: 12px;
 }
 
 /*---------------------------------------------------*/
@@ -2464,11 +2465,12 @@ h6 { font-size: 16px; }
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #fff;
+	background-color: #f3f0ea;
 	border-radius: 10px;
 	padding: 53px 50px 17px 50px;
 	margin-bottom: 107px;
 	position: relative;
+	box-shadow: 1px 2px 10px #1111116c;
 	z-index: 1;
 }
 .tonni_tm_counter_list ul{
@@ -2843,7 +2845,7 @@ h6 { font-size: 16px; }
 	.tonni_tm_about .right .title h3{font-size: 32px;}
 	.tonni_tm_about .year .rounded{width: 230px;height: 230px;}
 	.dodo_progress .progress_inner .background{height: 8px;}
-	.dodo_progress .percent{margin-top: 8px;}
+	.dodo_progress .percent{margin-top: 0px;}
 	.tonni_tm_testimonials .quotes p{font-size: 17px;}
 	.tonni_tm_modalbox .box_inner{width: 750px;}
 	.tonni_tm_modalbox .portfolio_main_title h3{font-size: 25px;}
@@ -2853,14 +2855,14 @@ h6 { font-size: 16px; }
 	.tonni_tm_modalbox .close{margin-left: 15px;}
 	.tonni_tm_modalbox .news_popup_informations .details h3{font-size: 25px;}
 	.tonni_tm_hero .shape1{bottom: 17%;left: 2%;}
-	.tonni_tm_hero .shape1 .svg{width: 35px;height: 35px;}
+	.tonni_tm_hero .shape1 .svg{width: 70px;height: 70px;}
 	/* .tonni_tm_hero .shape2{display: none;} */
-	.tonni_tm_hero .shape3 .svg{width: 25px;height: 25px;}
-	.tonni_tm_hero .shape5 .svg{width: 37px;height: 37px;}
+	.tonni_tm_hero .shape3 .svg{width: 75px;height: 75px;}
+	.tonni_tm_hero .shape5 .svg{width: 50px;height: 50px;}
 	.tonni_tm_hero .shape5{left: 35%;}
 	.tonni_tm_hero .shape7 .svg{width: 65px;height: 65px;}
-	.tonni_tm_hero .shape6 .svg{width: 38px;height: 38px;}
-	.tonni_tm_hero .shape4 .svg{width: 38px;height: 38px;}
+	.tonni_tm_hero .shape6 .svg{width: 55px;height: 55px;}
+	.tonni_tm_hero .shape4 .svg{width: 60px;height: 60px;}
 	.tonni_tm_timeline .shape2 .svg{width: 110px;height: 110px;}
 	.tonni_tm_timeline .shape4 .svg{width: 35px;height: 35px;}
 	.tonni_tm_timeline .shape4{top: 280px;right: 90px;}
@@ -2873,7 +2875,7 @@ h6 { font-size: 16px; }
 	.tonni_tm_pricing .shape2{margin-left: 50px;}
 	.tonni_tm_testimonials .shape2 .svg{width: 60px;height: 60px;}
 	.tonni_tm_testimonials .shape2{margin-left: 35px;}
-	.tonni_tm_testimonials .shape .svg{width: 38px;height: 38px;}
+	.tonni_tm_testimonials .shape .svg{width: 70px;height: 70px;}
 	.tonni_tm_testimonials .shape{margin-right: 60px;}
 	.tonni_tm_news .news_list .shape .svg{width: 60px;height: 60px;}
 	.tonni_tm_news .news_list .shape2 .svg{width: 38px;height: 38px;}
