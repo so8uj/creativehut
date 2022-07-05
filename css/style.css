@@ -535,16 +535,7 @@ h6 { font-size: 16px; }
 	position: relative;
 	margin-bottom: 60px;
 }
-.tonni_tm_hero .welcome:before{
-	position: absolute;
-	content: "";
-	width: 70px;
-	height: 2px;
-	background-color: var(--extra-color);;
-	left: 100%;
-	margin-left: 2px;
-	bottom: 9px;
-}
+
 .tonni_tm_button{
 	width: 100%;
 	height: auto;
@@ -573,7 +564,8 @@ h6 { font-size: 16px; }
 }
 .tonni_tm_down{
 	position: absolute;
-	left: 28px;
+	left: 50%;
+	transform: translateX(-150%);
 	bottom: 7%;
 }
 .tonni_tm_down svg{
@@ -832,7 +824,7 @@ h6 { font-size: 16px; }
 	float: left;
 }
 .dodo_progress ul{
-	margin: 0px 0px 0px -80px;
+	margin: 0px 0px 0px 0px;
 	list-style-type: none;
 }
 .dodo_progress ul li{
@@ -856,7 +848,7 @@ h6 { font-size: 16px; }
 	width:100%;
 	min-width:100%;
 	position:relative;
-	height:30px;
+	height:8px;
 	border-radius: 10px;
 }
 .dodo_progress .progress_inner .background .bar_in{
@@ -2833,7 +2825,7 @@ h6 { font-size: 16px; }
 @media (max-width: 1600px) {
 	.container{max-width:1150px;}
 	.tonni_tm_hero .name{font-size: 70px;}
-	.tonni_tm_hero .welcome{font-size: 17px;}
+	.tonni_tm_hero .welcome{font-size: 22px;}
 	.tonni_tm_hero .welcome{margin-bottom: 45px;}
 	.tonni_tm_down svg{width: 45px !important;height: 45px !important;}
 	.tonni_tm_down{bottom: 3%;}
@@ -2850,7 +2842,7 @@ h6 { font-size: 16px; }
 	.tonni_tm_about .right .text{margin-bottom: 35px;}
 	.tonni_tm_about .right .title h3{font-size: 32px;}
 	.tonni_tm_about .year .rounded{width: 230px;height: 230px;}
-	.dodo_progress .progress_inner .background{height: 22px;}
+	.dodo_progress .progress_inner .background{height: 8px;}
 	.dodo_progress .percent{margin-top: 8px;}
 	.tonni_tm_testimonials .quotes p{font-size: 17px;}
 	.tonni_tm_modalbox .box_inner{width: 750px;}
@@ -2934,6 +2926,7 @@ h6 { font-size: 16px; }
 	.tonni_tm_hero .welcome{font-size: 16px;}
 	.tonni_tm_down svg{width: 30px !important;height: 30px !important;}
 	.tonni_tm_down{bottom: 2%;}
+	.tonni_tm_about{padding-top: 100px;}
 	.tonni_tm_about .about_inner{flex-direction: column;}
 	.tonni_tm_about .left{width: 100%;margin-bottom: 50px;}
 	.tonni_tm_about .year .rounded{display: none;}
@@ -2971,6 +2964,7 @@ h6 { font-size: 16px; }
 	.tonni_tm_modalbox .portfolio_main_title{margin-bottom: 13px;}
 	.tonni_tm_modalbox .main_details .textbox{margin-bottom: 25px;}
 	.tonni_tm_modalbox .main_details{margin-bottom: 45px;}
+	.tonni_tm_about .left_inner{justify-content: center;}
 }
 @media (max-width: 768px) {
 	.tonni_tm_hero .name{font-size: 55px;}
@@ -2980,7 +2974,7 @@ h6 { font-size: 16px; }
 	.tonni_tm_about .right .title span{font-size: 16px;}
 	.dodo_progress ul{margin: 0px;}
 	.dodo_progress ul li{width: 100%;padding-left: 0px;margin-bottom: 15px;}
-	.dodo_progress .progress_inner .background{height: 10px;}
+	.dodo_progress .progress_inner .background{height: 8px;}
 	.tonni_tm_service .service_list ul{margin: 0px;}
 	.tonni_tm_service .service_list ul li{width: 100%;padding-left: 0px;}
 	.tonni_tm_service .service_list ul li .svg{width: 55px;height: 55px;margin-bottom: 20px;}

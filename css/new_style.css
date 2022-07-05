@@ -225,15 +225,40 @@
 
 .dodo_progress ul li {
     margin: 0px 0px 20px 0px;
+    padding-left: 0;
+    padding-right: 20px;
 
 }
-
+.tonni_tm_hero .welcome{
+    display: unset;
+}
+.tonni_tm_hero .name{
+    margin-bottom: 30px;
+}
+.tonni_tm_button {
+    margin-top: 45px;
+}
+span.typed-cursor{
+    font-size: 30px;
+}
 @media (max-width: 1600px) {
     .dodo_progress .progress_inner .background {
-        height: 4px;
+        height: 8px;
     }
 }
-
+@media screen and (max-width:768px){
+    .tonni_tm_hero .background{
+        left: -400px;
+    }
+    .tonni_tm_service .service_list{
+        flex-direction: column;
+    }
+    .service_item-box{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
 
 
 /* footer */
