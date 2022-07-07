@@ -2412,6 +2412,7 @@ h6 { font-size: 16px; }
 }
 .tonni_tm_partners .partners_list ul li{
 	margin: 0px;
+	text-align: center;
 }
 .tonni_tm_partners .partners_list ul li img{
 	opacity: .2;
@@ -2881,7 +2882,7 @@ h6 { font-size: 16px; }
 	.tonni_tm_news .news_list .shape2 .svg{width: 38px;height: 38px;}
 	.tonni_tm_news .news_list .shape2{margin-left: 38px;}
 	.tonni_tm_partners .shape{margin-right: 30px;}
-	.tonni_tm_partners .shape .svg{width: 35px;height: 35px;}
+	.tonni_tm_partners .shape .svg{width: 70px;height: 70px;}
 }
 @media (max-width: 1200px) {
 	.tonni_tm_modalbox .box_inner{width: 700px;}
