@@ -2727,7 +2727,7 @@ h6 { font-size: 16px; }
 /*	14) TONNI MAGIC CURSOR
 /*---------------------------------------------------*/
 
-.mouse-cursor{
+/* .mouse-cursor{
   position: fixed;
   left: 0;
   top: 0;
@@ -2775,7 +2775,7 @@ h6 { font-size: 16px; }
 	visibility: hidden;
 	position: absolute;
 	z-index: -1111;
-}
+} */
 
 /*---------------------------------------------------*/
 /*	15) TONNI TOTOP

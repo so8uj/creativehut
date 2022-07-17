@@ -1,0 +1,29 @@
+:root {
+    --cursor-size: 30px;
+    --bg-color: #f2f5f8;
+    --dot-space: 30px;
+}
+
+
+.custom-pointer {
+    position: absolute;
+    left: calc(var(--cursor-size) / -2);
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+    transition: 500ms, transform 100ms;
+    user-select: none;
+    pointer-events: none;
+    z-index: 9999999999999999999;
+}
+.custom-pointer svg{
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+}
+
+.inner {
+    fill: #f2f5f8;
+}
+
+.outer {
+    fill: #111920;
+}
