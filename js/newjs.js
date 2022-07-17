@@ -10,3 +10,4 @@ var typed_strings = $('.text-slider-items').text();
 		backSpeed: 30
 	});
 }
+

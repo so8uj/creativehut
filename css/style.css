@@ -1024,17 +1024,17 @@ h6 { font-size: 16px; }
 	float: left;
 	padding-top: 50px;
 }
-.tonni_tm_portfolio .portfolio_list ul{
+.tonni_tm_portfolio .portfolio-gallery{
 	margin: 0px 0px 0px -30px;
-	list-style-type: none;
+	/* list-style-type: none; */
 }
-.tonni_tm_portfolio .portfolio_list ul li{
+.tonni_tm_portfolio .portfolio-item{
 	margin: 0px 0px 30px 0px;
 	float: left;
 	padding-left: 30px;
 	width: 33.3333%;
 }
-.tonni_tm_portfolio .portfolio_list ul li .list_inner{
+.tonni_tm_portfolio .portfolio_list .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;

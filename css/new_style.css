@@ -13,6 +13,19 @@
     color: #fff !important;
     font-weight: normal !important;
 }
+.portfolio_btn {
+    padding: 10px 20px;
+    background: #ab5429;
+    color: #fff !important;
+    font-weight: normal !important;
+    border: none;
+}
+.portfolio_btn:hover {
+    background: #000;
+}
+.port_btn_clicked{
+    background: #000;
+}
 
 .view_resume:hover {
     background: #000;
