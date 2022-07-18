@@ -6,7 +6,9 @@
 .text-slider-items {
     display: none;
 }
-
+.tonni_tm_portfolio .portfolio_list{
+    padding-top: 0;
+}
 .view_resume {
     padding: 10px 20px;
     background: #ab5429;
@@ -23,7 +25,7 @@
 .portfolio_btn:hover {
     background: #000;
 }
-.port_btn_clicked{
+.portfolio_btn.active.show{
     background: #000;
 }
 
@@ -261,6 +263,15 @@ span.typed-cursor{
     .dodo_progress .progress_inner .background {
         height: 8px;
     }
+}
+@media screen and (max-width:1040px){
+    .portfolio-item.grid-item{
+        width: 50%;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width:654px){
+    .portfolio-item.grid-item{width: 100%;}
 }
 @media screen and (max-width:768px){
     .tonni_tm_hero .background{

@@ -2944,6 +2944,7 @@ h6 { font-size: 16px; }
 	.tonni_tm_main_title[data-type="flex"] .title{width: 100%;margin-bottom: 10px;}
 	.tonni_tm_main_title[data-type="flex"] .subtitle{width: 100%;padding-left: 0px;}
 	.tonni_tm_service .service_list ul li{width: 50%;}
+	
 	.tonni_tm_pricing .pricing_list > ul > li{width: 50%;}
 	.tonni_tm_news .news_list ul li{width: 50%;}
 	.tonni_tm_counter_list ul li{width: 50%;}
@@ -2983,8 +2984,8 @@ h6 { font-size: 16px; }
 	.tonni_tm_service .service_list ul li .svg{width: 55px;height: 55px;margin-bottom: 20px;}
 	.tonni_tm_service .service_list ul li .title{margin-bottom: 25px;}
 	.tonni_tm_main_title .title h3{font-size: 27px;}
-	.tonni_tm_portfolio .portfolio_list ul{margin: 0px;}
-	.tonni_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
+	.tonni_tm_portfolio .portfolio_list {margin: 0px;}
+	.tonni_tm_portfolio .portfolio_list {width: 100%;padding-left: 0px;}
 	.tonni_tm_timeline .timeline_list .line:before{display: none;}
 	.tonni_tm_timeline .timeline_list .line{display: none;}
 	.tonni_tm_timeline .timeline_list .items{flex-direction: column !important;}

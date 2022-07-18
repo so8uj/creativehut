@@ -1,38 +1,25 @@
-.portfolio .portfolio-cats {
+.product-menu {
+    margin: 40px 0;
+}
+
+.product-menu ul {
+    list-style: none;
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
+}
+.product-menu ul li {
+    margin-right: 10px;
 }
 
-.portfolio .portfolio-cats li {
-    background-color: #000;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-} 
-
-.portfolio .portfolio-gallery {
-    position: relative;
-    /* height: 1020px !important; */
+.product-menu ul li:last-child {
+    margin-right: 0px;
 }
-
-.portfolio .portfolio-item {
-    /* width: 100%;
-    height: 200px; */
-    margin-bottom: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition-property: opacity, transform;
-    transition-duration: 0.7s;
+.product-menu ul li a {
+    display: inline-block;
 }
-
-.portfolio .portfolio-item .item-inner {
-    height: 100%;
-    overflow: hidden;
-    box-shadow: 0 0 4px 0px rgb(0 0 0 / 10%);
+.tab-panel{
+    display: none;
+}
+.tab-panel.active{
+    display: block;
 }
